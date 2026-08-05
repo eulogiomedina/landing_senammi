@@ -19,15 +19,27 @@
 }
 
 html {
+    max-width: 100%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
 body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0;
     color: var(--color-ink);
     background: var(--color-soft);
     font-family: "Inter", Arial, sans-serif;
     line-height: 1.5;
+}
+
+body,
+main,
+.site-header,
+.site-footer {
+    min-width: 0;
 }
 
 a {
@@ -50,7 +62,7 @@ video {
     justify-content: space-between;
     width: 100%;
     min-height: 86px;
-    padding: 16px max(24px, calc((100vw - var(--container)) / 2));
+    padding: 16px max(24px, calc((100% - var(--container)) / 2));
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
     background: rgba(8, 17, 31, 0.92);
     color: #ffffff;
@@ -60,6 +72,7 @@ video {
 .brand {
     display: inline-flex;
     align-items: center;
+    min-width: 0;
 }
 
 .brand__logo {
@@ -129,7 +142,7 @@ video {
     display: grid;
     align-items: center;
     min-height: calc(100vh - 86px);
-    padding: 72px max(24px, calc((100vw - var(--container)) / 2));
+    padding: 72px max(24px, calc((100% - var(--container)) / 2));
     overflow: hidden;
     color: #ffffff;
 }
@@ -191,7 +204,9 @@ video {
 }
 
 .hero__content {
+    width: 100%;
     max-width: 760px;
+    min-width: 0;
     text-shadow: 0 8px 34px rgba(0, 0, 0, 0.42);
 }
 
@@ -321,6 +336,7 @@ video {
 .stats,
 .contact-band {
     width: min(100% - 32px, var(--container));
+    max-width: var(--container);
     margin-inline: auto;
 }
 
@@ -968,7 +984,7 @@ video {
     width: 100%;
     max-width: none;
     margin-top: 104px;
-    padding: 104px max(24px, calc((100vw - var(--container)) / 2));
+    padding: 104px max(24px, calc((100% - var(--container)) / 2));
     overflow: hidden;
     color: #ffffff;
     background: #030507;
@@ -1520,7 +1536,7 @@ video {
     gap: 32px;
     width: 100%;
     margin-top: 96px;
-    padding: 54px max(24px, calc((100vw - var(--container)) / 2)) 28px;
+    padding: 54px max(24px, calc((100% - var(--container)) / 2)) 28px;
     color: rgba(255, 255, 255, 0.78);
     background: rgba(8, 17, 31, 0.92);
     font-size: 0.95rem;
@@ -1813,7 +1829,7 @@ video {
         top: 78px;
         right: 16px;
         display: none;
-        width: min(300px, calc(100vw - 32px));
+        width: min(300px, calc(100% - 32px));
         padding: 16px;
         border: 1px solid rgba(255, 255, 255, 0.16);
         border-radius: var(--radius);
@@ -1832,12 +1848,28 @@ video {
     }
 
     .hero h1 {
-        font-size: 2.7rem;
+        max-width: 100%;
+        font-size: clamp(2.15rem, 11vw, 2.7rem);
+        overflow-wrap: break-word;
     }
 
     .hero__logo {
-        width: 250px;
-        height: 64px;
+        width: min(250px, 78vw);
+        height: 58px;
+    }
+
+    .hero__description {
+        max-width: 100%;
+        font-size: 1.02rem;
+    }
+
+    .hero__actions {
+        width: 100%;
+    }
+
+    .hero .button {
+        max-width: 100%;
+        padding-inline: 22px;
     }
 
     .section,
