@@ -222,10 +222,6 @@ return [
     ],
     'faqs' => [
         [
-            'question' => 'Funciona sin internet?',
-            'answer' => 'La aplicacion puede prepararse para capturar informacion en campo y sincronizarla cuando exista conexion, segun el alcance tecnico definido para la institucion.',
-        ],
-        [
             'question' => 'Como se generan los PDFs?',
             'answer' => 'SENANMI toma la informacion registrada en el parte vial, evidencias y croquis para construir un expediente digital listo para consulta, descarga o impresion.',
         ],
