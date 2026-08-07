@@ -2,13 +2,13 @@
 
 return [
     'brand' => [
-        'name' => 'SENANMI',
+        'name' => 'SENAMMI',
         'tagline' => 'Tecnologia que conecta, organiza y transforma la gestion vial.',
         'logo' => 'img/lg.png',
     ],
     'meta' => [
-        'title' => 'SENANMI | Gestion digital de incidentes y partes viales',
-        'description' => 'SENANMI es una plataforma integral para digitalizar incidentes, accidentes, evidencias, croquis y expedientes viales desde campo hasta el CRM administrativo.',
+        'title' => 'SENAMMI | Gestion digital de incidentes y partes viales',
+        'description' => 'SENAMMI es una plataforma integral para digitalizar incidentes, accidentes, evidencias, croquis y expedientes viales desde campo hasta el CRM administrativo.',
     ],
     'media' => [
         'hero_image' => 'img/imagen_inicio.png',
@@ -28,7 +28,7 @@ return [
     'hero' => [
         'eyebrow' => '',
         'title' => 'Tecnologia que transforma la gestion de incidentes viales',
-        'description' => 'SENANMI digitaliza el ciclo completo: reporte ciudadano, asignacion al oficial, captura en campo, evidencias, croquis, expediente PDF, CRM y estadisticas para decisiones institucionales.',
+        'description' => 'SENAMMI digitaliza el ciclo completo: reporte ciudadano, asignacion al oficial, captura en campo, evidencias, croquis, expediente PDF, CRM y estadisticas para decisiones institucionales.',
         'primary_cta' => [
             'label' => 'Solicitar demostracion',
             'href' => '#contacto',
@@ -39,9 +39,9 @@ return [
         ],
     ],
     'about' => [
-        'eyebrow' => 'Que es SENANMI',
+        'eyebrow' => 'Que es SENAMMI',
         'title' => 'Un sistema para operar incidentes, accidentes y partes viales con trazabilidad',
-        'description' => 'SENANMI conecta la aplicacion movil de oficiales, el CRM administrativo, la API, la base de datos centralizada y el generador de expedientes PDF para que la informacion fluya desde el lugar del accidente hasta las areas de decision.',
+        'description' => 'SENAMMI conecta la aplicacion movil de oficiales, el CRM administrativo, la API, la base de datos centralizada y el generador de expedientes PDF para que la informacion fluya desde el lugar del accidente hasta las areas de decision.',
         'points' => [
             'Captura de informacion desde campo.',
             'Expedientes centralizados por folio.',
@@ -59,12 +59,12 @@ return [
     'solution' => [
         'eyebrow' => 'Nuestra solucion',
         'title' => 'Del lugar del incidente al parte vial digital',
-        'description' => 'SENANMI reemplaza formatos manuales, evidencias dispersas y captura duplicada por un flujo digital trazable desde campo hasta la consulta administrativa.',
+        'description' => 'SENAMMI reemplaza formatos manuales, evidencias dispersas y captura duplicada por un flujo digital trazable desde campo hasta la consulta administrativa.',
         'image_caption' => 'Oficial capturando el parte vial desde el lugar del incidente',
         'steps' => [
             'Reporte del accidente',
             'Atencion del oficial',
-            'Captura en SENANMI',
+            'Captura en SENAMMI',
             'Evidencias',
             'Croquis digital',
             'Expediente PDF',
@@ -80,7 +80,7 @@ return [
     ],
     'video_demo' => [
         'eyebrow' => 'Video demostrativo',
-        'title' => 'Conoce SENANMI en operacion',
+        'title' => 'Conoce SENAMMI en operacion',
         'description' => 'Mira como la plataforma acompana el flujo completo: inicio de sesion, registro del incidente, captura del parte vial, evidencias, croquis, PDF, CRM y dashboard administrativo.',
     ],
     'modules' => [
@@ -155,14 +155,14 @@ return [
         ],
         [
             'title' => 'Catalogos administrativos',
-            'description' => 'Configuracion de datos base para adaptar SENANMI a los procesos de cada institucion.',
+            'description' => 'Configuracion de datos base para adaptar SENAMMI a los procesos de cada institucion.',
             'image' => 'img/catalogos.png',
         ],
     ],
     'sketch' => [
         'eyebrow' => 'Croquis inteligente',
         'title' => 'Del croquis manual a una representacion digital clara y trazable',
-        'description' => 'Con SENANMI, el oficial puede elaborar el croquis directamente en la tablet usando plantillas, elementos viales, vehiculos, trayectorias, senalamientos y puntos de impacto. El resultado queda asociado al folio y forma parte del expediente digital.',
+        'description' => 'Con SENAMMI, el oficial puede elaborar el croquis directamente en la tablet usando plantillas, elementos viales, vehiculos, trayectorias, senalamientos y puntos de impacto. El resultado queda asociado al folio y forma parte del expediente digital.',
         'benefits' => [
             'Estandariza la representacion del accidente.',
             'Evita croquis ilegibles o incompletos.',
@@ -223,11 +223,11 @@ return [
     'faqs' => [
         [
             'question' => 'Como se generan los PDFs?',
-            'answer' => 'SENANMI toma la informacion registrada en el parte vial, evidencias y croquis para construir un expediente digital listo para consulta, descarga o impresion.',
+            'answer' => 'SENAMMI toma la informacion registrada en el parte vial, evidencias y croquis para construir un expediente digital listo para consulta, descarga o impresion.',
         ],
         [
             'question' => 'Como se integra con otros sistemas?',
-            'answer' => 'SENANMI puede coordinarse con otras dependencias cuando el municipio lo requiera, como C4, C5, policia, proteccion civil o Cruz Roja para atender casos extremos con mayor rapidez y control.',
+            'answer' => 'SENAMMI puede coordinarse con otras dependencias cuando el municipio lo requiera, como C4, C5, policia, proteccion civil o Cruz Roja para atender casos extremos con mayor rapidez y control.',
         ],
         [
             'question' => 'Se puede personalizar?',
@@ -235,8 +235,8 @@ return [
         ],
     ],
     'contact' => [
-        'title' => 'Solicita una demostracion de SENANMI',
-        'description' => 'Escribenos por correo o WhatsApp para agendar una demostracion y revisar como SENANMI puede adaptarse a la operacion de tu institucion.',
+        'title' => 'Solicita una demostracion de SENAMMI',
+        'description' => 'Escribenos por correo o WhatsApp para agendar una demostracion y revisar como SENAMMI puede adaptarse a la operacion de tu institucion.',
         'email' => 'fgarcia@workflex.mx',
         'phone' => '+52 81 3980 8035',
         'whatsapp' => '528139808035',
